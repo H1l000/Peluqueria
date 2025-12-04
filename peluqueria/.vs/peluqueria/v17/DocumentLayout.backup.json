@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|e:\\interficies\\proyectopeluqueria\\peluqueria\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|e:\\interficies\\proyectopeluqueria\\peluqueria\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|e:\\interficies\\proyectopeluqueria\\peluqueria\\edicionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:edicionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|E:\\Interficies\\proyectoPeluqueria\\peluqueria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|e:\\interficies\\proyectopeluqueria\\peluqueria\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|e:\\interficies\\proyectopeluqueria\\peluqueria\\gestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:gestionservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|e:\\interficies\\proyectopeluqueria\\peluqueria\\anyadirservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:anyadirservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|e:\\interficies\\proyectopeluqueria\\peluqueria\\eliminarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D01D4E65-716E-47D9-AC08-4908478B6448}|peluqueria.csproj|solutionrelative:eliminarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Usuarios.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Usuarios.cs*",
+              "RelativeToolTip": "Usuarios.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T12:30:31.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Usuarios.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Usuarios.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Usuarios.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T12:19:17.568Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EdicionServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\EdicionServicios.cs",
+              "RelativeDocumentMoniker": "EdicionServicios.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\EdicionServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EdicionServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:13:01.941Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnyadirServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\AnyadirServicios.cs",
+              "RelativeDocumentMoniker": "AnyadirServicios.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\AnyadirServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AnyadirServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:54:52.847Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GestionServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\GestionServicios.cs",
+              "RelativeDocumentMoniker": "GestionServicios.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\GestionServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:18:33.435Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Login.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Login.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:39:05.594Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EliminarServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\EliminarServicios.cs",
+              "RelativeDocumentMoniker": "EliminarServicios.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\EliminarServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EliminarServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:31:56.321Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Inicio.cs",
+              "RelativeDocumentMoniker": "Inicio.cs",
+              "ToolTip": "E:\\Interficies\\proyectoPeluqueria\\peluqueria\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:32:58.16Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
