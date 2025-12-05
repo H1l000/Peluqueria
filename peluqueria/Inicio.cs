@@ -16,5 +16,10 @@ namespace peluqueria
         {
             InitializeComponent();
         }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

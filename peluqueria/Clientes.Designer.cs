@@ -41,19 +41,30 @@
             pictureBox2 = new PictureBox();
             label1 = new Label();
             panelDGVClientes = new Panel();
-            dtGrdVwClientes = new DataGridView();
             panelAccionesClientes = new Panel();
+            dtGrdVwClientes = new DataGridView();
+            panel2 = new Panel();
+            btnEliminarCliente = new Button();
+            btnEditarCliente = new Button();
+            btnAnyadirCliente = new Button();
+            imgEliminarCliente = new PictureBox();
+            imgEditarCliente = new PictureBox();
+            imgAnyadirCliente = new PictureBox();
             panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelClientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panelDGVClientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtGrdVwClientes).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)imgEliminarCliente).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)imgEditarCliente).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)imgAnyadirCliente).BeginInit();
             SuspendLayout();
             // 
             // panelMenu
             // 
             panelMenu.BackColor = Color.DarkGray;
+            panelMenu.Controls.Add(panel2);
             panelMenu.Controls.Add(btnClientes);
             panelMenu.Controls.Add(panel1);
             panelMenu.Controls.Add(logOutButton);
@@ -166,6 +177,12 @@
             // 
             // panelDGVClientes
             // 
+            panelDGVClientes.Controls.Add(btnEliminarCliente);
+            panelDGVClientes.Controls.Add(btnEditarCliente);
+            panelDGVClientes.Controls.Add(btnAnyadirCliente);
+            panelDGVClientes.Controls.Add(imgEliminarCliente);
+            panelDGVClientes.Controls.Add(imgEditarCliente);
+            panelDGVClientes.Controls.Add(imgAnyadirCliente);
             panelDGVClientes.Controls.Add(panelAccionesClientes);
             panelDGVClientes.Controls.Add(dtGrdVwClientes);
             panelDGVClientes.Dock = DockStyle.Fill;
@@ -173,21 +190,93 @@
             panelDGVClientes.Name = "panelDGVClientes";
             panelDGVClientes.Size = new Size(875, 614);
             panelDGVClientes.TabIndex = 7;
+            panelDGVClientes.Paint += panelDGVClientes_Paint;
+            // 
+            // panelAccionesClientes
+            // 
+            panelAccionesClientes.Location = new Point(0, 120);
+            panelAccionesClientes.Name = "panelAccionesClientes";
+            panelAccionesClientes.Size = new Size(875, 34);
+            panelAccionesClientes.TabIndex = 11;
             // 
             // dtGrdVwClientes
             // 
             dtGrdVwClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtGrdVwClientes.Location = new Point(0, 98);
+            dtGrdVwClientes.Location = new Point(0, 127);
             dtGrdVwClientes.Name = "dtGrdVwClientes";
-            dtGrdVwClientes.Size = new Size(875, 516);
+            dtGrdVwClientes.Size = new Size(875, 487);
             dtGrdVwClientes.TabIndex = 8;
             // 
-            // panelAccionesClientes
+            // panel2
             // 
-            panelAccionesClientes.Location = new Point(0, 98);
-            panelAccionesClientes.Name = "panelAccionesClientes";
-            panelAccionesClientes.Size = new Size(875, 56);
-            panelAccionesClientes.TabIndex = 11;
+            panel2.Location = new Point(181, 77);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(875, 105);
+            panel2.TabIndex = 12;
+            // 
+            // btnEliminarCliente
+            // 
+            btnEliminarCliente.BackColor = Color.Silver;
+            btnEliminarCliente.FlatStyle = FlatStyle.Flat;
+            btnEliminarCliente.Location = new Point(633, 89);
+            btnEliminarCliente.Name = "btnEliminarCliente";
+            btnEliminarCliente.Size = new Size(106, 25);
+            btnEliminarCliente.TabIndex = 17;
+            btnEliminarCliente.Text = "Eliminar cliente";
+            btnEliminarCliente.UseVisualStyleBackColor = false;
+            // 
+            // btnEditarCliente
+            // 
+            btnEditarCliente.BackColor = Color.Silver;
+            btnEditarCliente.FlatStyle = FlatStyle.Flat;
+            btnEditarCliente.Location = new Point(365, 89);
+            btnEditarCliente.Name = "btnEditarCliente";
+            btnEditarCliente.Size = new Size(106, 25);
+            btnEditarCliente.TabIndex = 16;
+            btnEditarCliente.Text = "Editar cliente";
+            btnEditarCliente.UseVisualStyleBackColor = false;
+            // 
+            // btnAnyadirCliente
+            // 
+            btnAnyadirCliente.BackColor = Color.Silver;
+            btnAnyadirCliente.FlatStyle = FlatStyle.Flat;
+            btnAnyadirCliente.Location = new Point(118, 89);
+            btnAnyadirCliente.Name = "btnAnyadirCliente";
+            btnAnyadirCliente.Size = new Size(106, 25);
+            btnAnyadirCliente.TabIndex = 15;
+            btnAnyadirCliente.Text = "Añadir cliente";
+            btnAnyadirCliente.UseVisualStyleBackColor = false;
+            // 
+            // imgEliminarCliente
+            // 
+            imgEliminarCliente.Image = (Image)resources.GetObject("imgEliminarCliente.Image");
+            imgEliminarCliente.Location = new Point(616, 3);
+            imgEliminarCliente.Name = "imgEliminarCliente";
+            imgEliminarCliente.Size = new Size(140, 76);
+            imgEliminarCliente.SizeMode = PictureBoxSizeMode.Zoom;
+            imgEliminarCliente.TabIndex = 14;
+            imgEliminarCliente.TabStop = false;
+            // 
+            // imgEditarCliente
+            // 
+            imgEditarCliente.Image = (Image)resources.GetObject("imgEditarCliente.Image");
+            imgEditarCliente.Location = new Point(347, 3);
+            imgEditarCliente.Name = "imgEditarCliente";
+            imgEditarCliente.Size = new Size(143, 76);
+            imgEditarCliente.SizeMode = PictureBoxSizeMode.Zoom;
+            imgEditarCliente.TabIndex = 13;
+            imgEditarCliente.TabStop = false;
+            // 
+            // imgAnyadirCliente
+            // 
+            imgAnyadirCliente.ErrorImage = null;
+            imgAnyadirCliente.Image = (Image)resources.GetObject("imgAnyadirCliente.Image");
+            imgAnyadirCliente.Location = new Point(99, 2);
+            imgAnyadirCliente.Name = "imgAnyadirCliente";
+            imgAnyadirCliente.Size = new Size(138, 77);
+            imgAnyadirCliente.SizeMode = PictureBoxSizeMode.Zoom;
+            imgAnyadirCliente.TabIndex = 12;
+            imgAnyadirCliente.TabStop = false;
             // 
             // Clientes
             // 
@@ -199,7 +288,7 @@
             Controls.Add(panelMenu);
             Name = "Clientes";
             Text = "Form1";
-            Load += this.Clientes_Load;
+            Load += Clientes_Load;
             panelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panelClientes.ResumeLayout(false);
@@ -207,6 +296,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panelDGVClientes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dtGrdVwClientes).EndInit();
+            ((System.ComponentModel.ISupportInitialize)imgEliminarCliente).EndInit();
+            ((System.ComponentModel.ISupportInitialize)imgEditarCliente).EndInit();
+            ((System.ComponentModel.ISupportInitialize)imgAnyadirCliente).EndInit();
             ResumeLayout(false);
         }
 
@@ -226,5 +318,12 @@
         private Panel panelDGVClientes;
         private DataGridView dtGrdVwClientes;
         private Panel panelAccionesClientes;
+        private Panel panel2;
+        private Button btnEliminarCliente;
+        private Button btnEditarCliente;
+        private Button btnAnyadirCliente;
+        private PictureBox imgEliminarCliente;
+        private PictureBox imgEditarCliente;
+        private PictureBox imgAnyadirCliente;
     }
 }

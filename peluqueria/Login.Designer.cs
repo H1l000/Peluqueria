@@ -43,6 +43,7 @@
             button1.TabIndex = 0;
             button1.Text = "Iniciar Sesión";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // txtBoxUsuario
             // 
@@ -89,6 +90,7 @@
             Controls.Add(button1);
             Name = "Login";
             Text = "Form1";
+            Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
         }

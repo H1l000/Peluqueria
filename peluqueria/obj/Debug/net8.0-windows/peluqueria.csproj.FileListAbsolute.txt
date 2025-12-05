@@ -22,3 +22,8 @@ E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria
 E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.GestionServicios.resources
 E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.Inicio.resources
 E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.Usuarios.resources
+E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.AnyadirAdministradores.resources
+E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.AnyadirGrupos.resources
+E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.Clientes.resources
+E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.EleccionAnyadirTipoUsuarios.resources
+E:\Interficies\proyectoPeluqueria\peluqueria\obj\Debug\net8.0-windows\peluqueria.sourcelink.json

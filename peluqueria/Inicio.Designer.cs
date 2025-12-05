@@ -30,39 +30,39 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             panelMenu = new Panel();
-            btnInicio = new Button();
-            pictureBox1 = new PictureBox();
-            btnServicios = new Button();
-            btnEmpleados = new Button();
-            btnClientes = new Button();
             logOutButton = new Button();
+            btnClientes = new Button();
+            btnEmpleados = new Button();
+            btnServicios = new Button();
+            btnInicio = new Button();
             panelInicioArriba = new Panel();
             label1 = new Label();
             panel2 = new Panel();
-            label2 = new Label();
             numCitas = new Label();
+            label2 = new Label();
             panelCitasHoy = new Panel();
+            dtgrdVwCitasHoy = new DataGridView();
             panel3 = new Panel();
             numClientes = new Label();
             label4 = new Label();
-            dtgrdVwCitasHoy = new DataGridView();
+            pictureBox1 = new PictureBox();
             panelMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelInicioArriba.SuspendLayout();
             panel2.SuspendLayout();
             panelCitasHoy.SuspendLayout();
-            panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtgrdVwCitasHoy).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelMenu
             // 
             panelMenu.BackColor = Color.DarkGray;
+            panelMenu.Controls.Add(pictureBox1);
             panelMenu.Controls.Add(logOutButton);
             panelMenu.Controls.Add(btnClientes);
             panelMenu.Controls.Add(btnEmpleados);
             panelMenu.Controls.Add(btnServicios);
-            panelMenu.Controls.Add(pictureBox1);
             panelMenu.Controls.Add(btnInicio);
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
@@ -70,45 +70,15 @@
             panelMenu.Size = new Size(181, 691);
             panelMenu.TabIndex = 0;
             // 
-            // btnInicio
+            // logOutButton
             // 
-            btnInicio.FlatStyle = FlatStyle.Flat;
-            btnInicio.Location = new Point(45, 118);
-            btnInicio.Name = "btnInicio";
-            btnInicio.Size = new Size(75, 23);
-            btnInicio.TabIndex = 0;
-            btnInicio.Text = "Inicio";
-            btnInicio.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(181, 77);
-            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
-            // 
-            // btnServicios
-            // 
-            btnServicios.FlatStyle = FlatStyle.Flat;
-            btnServicios.Location = new Point(45, 204);
-            btnServicios.Name = "btnServicios";
-            btnServicios.Size = new Size(75, 23);
-            btnServicios.TabIndex = 2;
-            btnServicios.Text = "Servicios";
-            btnServicios.UseVisualStyleBackColor = true;
-            // 
-            // btnEmpleados
-            // 
-            btnEmpleados.FlatStyle = FlatStyle.Flat;
-            btnEmpleados.Location = new Point(45, 285);
-            btnEmpleados.Name = "btnEmpleados";
-            btnEmpleados.Size = new Size(75, 27);
-            btnEmpleados.TabIndex = 3;
-            btnEmpleados.Text = "Empleados";
-            btnEmpleados.UseVisualStyleBackColor = true;
+            logOutButton.FlatStyle = FlatStyle.Flat;
+            logOutButton.Location = new Point(26, 627);
+            logOutButton.Name = "logOutButton";
+            logOutButton.Size = new Size(123, 27);
+            logOutButton.TabIndex = 5;
+            logOutButton.Text = "Cerrar sesión";
+            logOutButton.UseVisualStyleBackColor = true;
             // 
             // btnClientes
             // 
@@ -120,15 +90,35 @@
             btnClientes.Text = "Clientes";
             btnClientes.UseVisualStyleBackColor = true;
             // 
-            // logOutButton
+            // btnEmpleados
             // 
-            logOutButton.FlatStyle = FlatStyle.Flat;
-            logOutButton.Location = new Point(26, 627);
-            logOutButton.Name = "logOutButton";
-            logOutButton.Size = new Size(123, 27);
-            logOutButton.TabIndex = 5;
-            logOutButton.Text = "Cerrar sesión";
-            logOutButton.UseVisualStyleBackColor = true;
+            btnEmpleados.FlatStyle = FlatStyle.Flat;
+            btnEmpleados.Location = new Point(45, 285);
+            btnEmpleados.Name = "btnEmpleados";
+            btnEmpleados.Size = new Size(75, 27);
+            btnEmpleados.TabIndex = 3;
+            btnEmpleados.Text = "Empleados";
+            btnEmpleados.UseVisualStyleBackColor = true;
+            // 
+            // btnServicios
+            // 
+            btnServicios.FlatStyle = FlatStyle.Flat;
+            btnServicios.Location = new Point(45, 204);
+            btnServicios.Name = "btnServicios";
+            btnServicios.Size = new Size(75, 23);
+            btnServicios.TabIndex = 2;
+            btnServicios.Text = "Servicios";
+            btnServicios.UseVisualStyleBackColor = true;
+            // 
+            // btnInicio
+            // 
+            btnInicio.FlatStyle = FlatStyle.Flat;
+            btnInicio.Location = new Point(45, 118);
+            btnInicio.Name = "btnInicio";
+            btnInicio.Size = new Size(75, 23);
+            btnInicio.TabIndex = 0;
+            btnInicio.Text = "Inicio";
+            btnInicio.UseVisualStyleBackColor = true;
             // 
             // panelInicioArriba
             // 
@@ -158,15 +148,6 @@
             panel2.Size = new Size(245, 128);
             panel2.TabIndex = 2;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(79, 4);
-            label2.Name = "label2";
-            label2.Size = new Size(72, 15);
-            label2.TabIndex = 0;
-            label2.Text = "Citas de hoy";
-            // 
             // numCitas
             // 
             numCitas.AutoSize = true;
@@ -177,6 +158,15 @@
             numCitas.TabIndex = 1;
             numCitas.Text = "0";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(79, 4);
+            label2.Name = "label2";
+            label2.Size = new Size(72, 15);
+            label2.TabIndex = 0;
+            label2.Text = "Citas de hoy";
+            // 
             // panelCitasHoy
             // 
             panelCitasHoy.Controls.Add(dtgrdVwCitasHoy);
@@ -184,6 +174,21 @@
             panelCitasHoy.Name = "panelCitasHoy";
             panelCitasHoy.Size = new Size(795, 394);
             panelCitasHoy.TabIndex = 3;
+            // 
+            // dtgrdVwCitasHoy
+            // 
+            dtgrdVwCitasHoy.AllowUserToAddRows = false;
+            dtgrdVwCitasHoy.AllowUserToDeleteRows = false;
+            dtgrdVwCitasHoy.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dtgrdVwCitasHoy.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtgrdVwCitasHoy.Dock = DockStyle.Fill;
+            dtgrdVwCitasHoy.Location = new Point(0, 0);
+            dtgrdVwCitasHoy.Name = "dtgrdVwCitasHoy";
+            dtgrdVwCitasHoy.ReadOnly = true;
+            dtgrdVwCitasHoy.RowHeadersVisible = false;
+            dtgrdVwCitasHoy.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dtgrdVwCitasHoy.Size = new Size(795, 394);
+            dtgrdVwCitasHoy.TabIndex = 1;
             // 
             // panel3
             // 
@@ -213,22 +218,17 @@
             label4.TabIndex = 0;
             label4.Text = "Clientes atendidos hoy";
             // 
-            // dtgrdVwCitasHoy
+            // pictureBox1
             // 
-            dtgrdVwCitasHoy.AllowUserToAddRows = false;
-            dtgrdVwCitasHoy.AllowUserToDeleteRows = false;
-            dtgrdVwCitasHoy.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dtgrdVwCitasHoy.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgrdVwCitasHoy.Dock = DockStyle.Fill;
-            dtgrdVwCitasHoy.Location = new Point(0, 0);
-            dtgrdVwCitasHoy.Name = "dtgrdVwCitasHoy";
-            dtgrdVwCitasHoy.ReadOnly = true;
-            dtgrdVwCitasHoy.RowHeadersVisible = false;
-            dtgrdVwCitasHoy.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dtgrdVwCitasHoy.Size = new Size(795, 394);
-            dtgrdVwCitasHoy.TabIndex = 1;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, -3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(181, 77);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
             // 
-            // Form1
+            // Inicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -238,18 +238,19 @@
             Controls.Add(panel2);
             Controls.Add(panelInicioArriba);
             Controls.Add(panelMenu);
-            Name = "Form1";
+            Name = "Inicio";
             Text = "Form1";
+            Load += Inicio_Load;
             panelMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panelInicioArriba.ResumeLayout(false);
             panelInicioArriba.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panelCitasHoy.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dtgrdVwCitasHoy).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dtgrdVwCitasHoy).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -257,7 +258,6 @@
 
         private Panel panelMenu;
         private Button btnInicio;
-        private PictureBox pictureBox1;
         private Button logOutButton;
         private Button btnClientes;
         private Button btnEmpleados;
@@ -272,5 +272,6 @@
         private Label numClientes;
         private Label label4;
         private DataGridView dtgrdVwCitasHoy;
+        private PictureBox pictureBox1;
     }
 }

@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuarios));
             panelMenu = new Panel();
+            panel2 = new Panel();
+            btnClientes = new Button();
             panel1 = new Panel();
             logOutButton = new Button();
             btnEmpleados = new Button();
@@ -40,20 +42,29 @@
             pictureBox2 = new PictureBox();
             label1 = new Label();
             panelDGVwEmpleados = new Panel();
-            btnClientes = new Button();
-            dtGrdVwUsuarios = new DataGridView();
+            btnEliminarUsuario = new Button();
+            btnEditarUsuario = new Button();
+            btnAnyadirUsuario = new Button();
+            imgEliminarUsuario = new PictureBox();
+            imgEditarUsuario = new PictureBox();
+            imgAnyadirUsuario = new PictureBox();
             panelAccionesUsuarios = new Panel();
+            dtGrdVwUsuarios = new DataGridView();
             panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelEditarServicios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panelDGVwEmpleados.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)imgEliminarUsuario).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)imgEditarUsuario).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)imgAnyadirUsuario).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dtGrdVwUsuarios).BeginInit();
             SuspendLayout();
             // 
             // panelMenu
             // 
             panelMenu.BackColor = Color.DarkGray;
+            panelMenu.Controls.Add(panel2);
             panelMenu.Controls.Add(btnClientes);
             panelMenu.Controls.Add(panel1);
             panelMenu.Controls.Add(logOutButton);
@@ -66,6 +77,23 @@
             panelMenu.Name = "panelMenu";
             panelMenu.Size = new Size(181, 691);
             panelMenu.TabIndex = 4;
+            // 
+            // panel2
+            // 
+            panel2.Location = new Point(181, 77);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(872, 92);
+            panel2.TabIndex = 11;
+            // 
+            // btnClientes
+            // 
+            btnClientes.FlatStyle = FlatStyle.Flat;
+            btnClientes.Location = new Point(45, 370);
+            btnClientes.Name = "btnClientes";
+            btnClientes.Size = new Size(75, 27);
+            btnClientes.TabIndex = 8;
+            btnClientes.Text = "Clientes";
+            btnClientes.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -156,6 +184,12 @@
             // 
             // panelDGVwEmpleados
             // 
+            panelDGVwEmpleados.Controls.Add(btnEliminarUsuario);
+            panelDGVwEmpleados.Controls.Add(btnEditarUsuario);
+            panelDGVwEmpleados.Controls.Add(btnAnyadirUsuario);
+            panelDGVwEmpleados.Controls.Add(imgEliminarUsuario);
+            panelDGVwEmpleados.Controls.Add(imgEditarUsuario);
+            panelDGVwEmpleados.Controls.Add(imgAnyadirUsuario);
             panelDGVwEmpleados.Controls.Add(panelAccionesUsuarios);
             panelDGVwEmpleados.Controls.Add(dtGrdVwUsuarios);
             panelDGVwEmpleados.Dock = DockStyle.Top;
@@ -164,30 +198,84 @@
             panelDGVwEmpleados.Size = new Size(875, 614);
             panelDGVwEmpleados.TabIndex = 6;
             // 
-            // btnClientes
+            // btnEliminarUsuario
             // 
-            btnClientes.FlatStyle = FlatStyle.Flat;
-            btnClientes.Location = new Point(45, 370);
-            btnClientes.Name = "btnClientes";
-            btnClientes.Size = new Size(75, 27);
-            btnClientes.TabIndex = 8;
-            btnClientes.Text = "Clientes";
-            btnClientes.UseVisualStyleBackColor = true;
+            btnEliminarUsuario.BackColor = Color.Silver;
+            btnEliminarUsuario.FlatStyle = FlatStyle.Flat;
+            btnEliminarUsuario.Location = new Point(638, 89);
+            btnEliminarUsuario.Name = "btnEliminarUsuario";
+            btnEliminarUsuario.Size = new Size(106, 25);
+            btnEliminarUsuario.TabIndex = 23;
+            btnEliminarUsuario.Text = "Eliminar usuario";
+            btnEliminarUsuario.UseVisualStyleBackColor = false;
+            // 
+            // btnEditarUsuario
+            // 
+            btnEditarUsuario.BackColor = Color.Silver;
+            btnEditarUsuario.FlatStyle = FlatStyle.Flat;
+            btnEditarUsuario.Location = new Point(370, 89);
+            btnEditarUsuario.Name = "btnEditarUsuario";
+            btnEditarUsuario.Size = new Size(106, 25);
+            btnEditarUsuario.TabIndex = 22;
+            btnEditarUsuario.Text = "Editar usuario";
+            btnEditarUsuario.UseVisualStyleBackColor = false;
+            // 
+            // btnAnyadirUsuario
+            // 
+            btnAnyadirUsuario.BackColor = Color.Silver;
+            btnAnyadirUsuario.FlatStyle = FlatStyle.Flat;
+            btnAnyadirUsuario.Location = new Point(123, 89);
+            btnAnyadirUsuario.Name = "btnAnyadirUsuario";
+            btnAnyadirUsuario.Size = new Size(106, 25);
+            btnAnyadirUsuario.TabIndex = 21;
+            btnAnyadirUsuario.Text = "Añadir usuario";
+            btnAnyadirUsuario.UseVisualStyleBackColor = false;
+            // 
+            // imgEliminarUsuario
+            // 
+            imgEliminarUsuario.Image = (Image)resources.GetObject("imgEliminarUsuario.Image");
+            imgEliminarUsuario.Location = new Point(621, 3);
+            imgEliminarUsuario.Name = "imgEliminarUsuario";
+            imgEliminarUsuario.Size = new Size(140, 76);
+            imgEliminarUsuario.SizeMode = PictureBoxSizeMode.Zoom;
+            imgEliminarUsuario.TabIndex = 20;
+            imgEliminarUsuario.TabStop = false;
+            // 
+            // imgEditarUsuario
+            // 
+            imgEditarUsuario.Image = (Image)resources.GetObject("imgEditarUsuario.Image");
+            imgEditarUsuario.Location = new Point(352, 3);
+            imgEditarUsuario.Name = "imgEditarUsuario";
+            imgEditarUsuario.Size = new Size(143, 76);
+            imgEditarUsuario.SizeMode = PictureBoxSizeMode.Zoom;
+            imgEditarUsuario.TabIndex = 19;
+            imgEditarUsuario.TabStop = false;
+            // 
+            // imgAnyadirUsuario
+            // 
+            imgAnyadirUsuario.ErrorImage = null;
+            imgAnyadirUsuario.Image = (Image)resources.GetObject("imgAnyadirUsuario.Image");
+            imgAnyadirUsuario.Location = new Point(104, 2);
+            imgAnyadirUsuario.Name = "imgAnyadirUsuario";
+            imgAnyadirUsuario.Size = new Size(138, 77);
+            imgAnyadirUsuario.SizeMode = PictureBoxSizeMode.Zoom;
+            imgAnyadirUsuario.TabIndex = 18;
+            imgAnyadirUsuario.TabStop = false;
+            // 
+            // panelAccionesUsuarios
+            // 
+            panelAccionesUsuarios.Location = new Point(0, 114);
+            panelAccionesUsuarios.Name = "panelAccionesUsuarios";
+            panelAccionesUsuarios.Size = new Size(875, 40);
+            panelAccionesUsuarios.TabIndex = 10;
             // 
             // dtGrdVwUsuarios
             // 
             dtGrdVwUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtGrdVwUsuarios.Location = new Point(0, 98);
+            dtGrdVwUsuarios.Location = new Point(0, 151);
             dtGrdVwUsuarios.Name = "dtGrdVwUsuarios";
-            dtGrdVwUsuarios.Size = new Size(875, 516);
+            dtGrdVwUsuarios.Size = new Size(875, 463);
             dtGrdVwUsuarios.TabIndex = 9;
-            // 
-            // panelAccionesUsuarios
-            // 
-            panelAccionesUsuarios.Location = new Point(0, 98);
-            panelAccionesUsuarios.Name = "panelAccionesUsuarios";
-            panelAccionesUsuarios.Size = new Size(875, 56);
-            panelAccionesUsuarios.TabIndex = 10;
             // 
             // Usuarios
             // 
@@ -206,6 +294,9 @@
             panelEditarServicios.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panelDGVwEmpleados.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)imgEliminarUsuario).EndInit();
+            ((System.ComponentModel.ISupportInitialize)imgEditarUsuario).EndInit();
+            ((System.ComponentModel.ISupportInitialize)imgAnyadirUsuario).EndInit();
             ((System.ComponentModel.ISupportInitialize)dtGrdVwUsuarios).EndInit();
             ResumeLayout(false);
         }
@@ -226,5 +317,12 @@
         private Button btnClientes;
         private DataGridView dtGrdVwUsuarios;
         private Panel panelAccionesUsuarios;
+        private Panel panel2;
+        private Button btnEliminarUsuario;
+        private Button btnEditarUsuario;
+        private Button btnAnyadirUsuario;
+        private PictureBox imgEliminarUsuario;
+        private PictureBox imgEditarUsuario;
+        private PictureBox imgAnyadirUsuario;
     }
 }

@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace peluqueria
 {
-    public partial class Clientes : Form
+    public partial class AnyadirProfesor : Form
     {
-        public Clientes()
+        public AnyadirProfesor()
         {
             InitializeComponent();
-        }
-
-        private void Clientes_Load(object sender, EventArgs e)
-        {
-            // Código al cargar el formulario
-        }
-
-        private void panelDGVClientes_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
