@@ -1,6 +1,6 @@
 ﻿namespace peluqueria
 {
-    partial class EliminarServicios
+    partial class EliminarUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EliminarServicios));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EliminarUsuario));
             panelMenu = new Panel();
-            logOutButton = new Button();
+            panel2 = new Panel();
             btnClientes = new Button();
+            panel1 = new Panel();
+            logOutButton = new Button();
             btnEmpleados = new Button();
             btnServicios = new Button();
             pictureBox1 = new PictureBox();
             btnInicio = new Button();
-            panelEliminarServicios = new Panel();
+            panelArribaEliminarUsuarios = new Panel();
             pictureBox2 = new PictureBox();
             label1 = new Label();
-            label7 = new Label();
-            txtBoxIDEliminar = new TextBox();
+            panel3 = new Panel();
+            btnEliminarUsuario = new Button();
             label3 = new Label();
             label2 = new Label();
-            btnEliminarServicio = new Button();
+            label7 = new Label();
+            txtBoxIDEliminarUsuario = new TextBox();
             panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panelEliminarServicios.SuspendLayout();
+            panelArribaEliminarUsuarios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panelMenu
             // 
             panelMenu.BackColor = Color.DarkGray;
-            panelMenu.Controls.Add(logOutButton);
+            panelMenu.Controls.Add(panel2);
             panelMenu.Controls.Add(btnClientes);
+            panelMenu.Controls.Add(panel1);
+            panelMenu.Controls.Add(logOutButton);
             panelMenu.Controls.Add(btnEmpleados);
             panelMenu.Controls.Add(btnServicios);
             panelMenu.Controls.Add(pictureBox1);
@@ -63,7 +69,31 @@
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
             panelMenu.Size = new Size(181, 691);
-            panelMenu.TabIndex = 4;
+            panelMenu.TabIndex = 9;
+            // 
+            // panel2
+            // 
+            panel2.Location = new Point(181, 77);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(875, 105);
+            panel2.TabIndex = 12;
+            // 
+            // btnClientes
+            // 
+            btnClientes.FlatStyle = FlatStyle.Flat;
+            btnClientes.Location = new Point(45, 370);
+            btnClientes.Name = "btnClientes";
+            btnClientes.Size = new Size(75, 27);
+            btnClientes.TabIndex = 8;
+            btnClientes.Text = "Clientes";
+            btnClientes.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(181, 352);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(200, 100);
+            panel1.TabIndex = 7;
             // 
             // logOutButton
             // 
@@ -74,16 +104,6 @@
             logOutButton.TabIndex = 5;
             logOutButton.Text = "Cerrar sesión";
             logOutButton.UseVisualStyleBackColor = true;
-            // 
-            // btnClientes
-            // 
-            btnClientes.FlatStyle = FlatStyle.Flat;
-            btnClientes.Location = new Point(45, 378);
-            btnClientes.Name = "btnClientes";
-            btnClientes.Size = new Size(75, 27);
-            btnClientes.TabIndex = 4;
-            btnClientes.Text = "Clientes";
-            btnClientes.UseVisualStyleBackColor = true;
             // 
             // btnEmpleados
             // 
@@ -125,20 +145,20 @@
             btnInicio.Text = "Inicio";
             btnInicio.UseVisualStyleBackColor = true;
             // 
-            // panelEliminarServicios
+            // panelArribaEliminarUsuarios
             // 
-            panelEliminarServicios.Controls.Add(pictureBox2);
-            panelEliminarServicios.Controls.Add(label1);
-            panelEliminarServicios.Dock = DockStyle.Top;
-            panelEliminarServicios.Location = new Point(181, 0);
-            panelEliminarServicios.Name = "panelEliminarServicios";
-            panelEliminarServicios.Size = new Size(875, 77);
-            panelEliminarServicios.TabIndex = 5;
+            panelArribaEliminarUsuarios.Controls.Add(pictureBox2);
+            panelArribaEliminarUsuarios.Controls.Add(label1);
+            panelArribaEliminarUsuarios.Dock = DockStyle.Top;
+            panelArribaEliminarUsuarios.Location = new Point(181, 0);
+            panelArribaEliminarUsuarios.Name = "panelArribaEliminarUsuarios";
+            panelArribaEliminarUsuarios.Size = new Size(875, 77);
+            panelArribaEliminarUsuarios.TabIndex = 10;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(190, 17);
+            pictureBox2.Location = new Point(154, 9);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(100, 50);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -149,27 +169,35 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(282, 17);
+            label1.Location = new Point(246, 9);
             label1.Name = "label1";
-            label1.Size = new Size(375, 47);
+            label1.Size = new Size(354, 47);
             label1.TabIndex = 0;
-            label1.Text = "ELIMINAR SERVICIOS";
+            label1.Text = "ELIMINAR USUARIO";
             // 
-            // label7
+            // panel3
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(471, 344);
-            label7.Name = "label7";
-            label7.Size = new Size(18, 15);
-            label7.TabIndex = 12;
-            label7.Text = "ID";
+            panel3.Controls.Add(btnEliminarUsuario);
+            panel3.Controls.Add(label3);
+            panel3.Controls.Add(label2);
+            panel3.Controls.Add(label7);
+            panel3.Controls.Add(txtBoxIDEliminarUsuario);
+            panel3.Dock = DockStyle.Fill;
+            panel3.Location = new Point(181, 77);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(875, 614);
+            panel3.TabIndex = 11;
             // 
-            // txtBoxIDEliminar
+            // btnEliminarUsuario
             // 
-            txtBoxIDEliminar.Location = new Point(451, 374);
-            txtBoxIDEliminar.Name = "txtBoxIDEliminar";
-            txtBoxIDEliminar.Size = new Size(359, 23);
-            txtBoxIDEliminar.TabIndex = 11;
+            btnEliminarUsuario.BackColor = Color.IndianRed;
+            btnEliminarUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEliminarUsuario.Location = new Point(248, 423);
+            btnEliminarUsuario.Name = "btnEliminarUsuario";
+            btnEliminarUsuario.Size = new Size(321, 36);
+            btnEliminarUsuario.TabIndex = 20;
+            btnEliminarUsuario.Text = "ELIMINAR";
+            btnEliminarUsuario.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -177,73 +205,78 @@
             label3.BackColor = SystemColors.Control;
             label3.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(255, 128, 128);
-            label3.Location = new Point(451, 251);
+            label3.Location = new Point(236, 210);
             label3.Name = "label3";
             label3.Size = new Size(403, 40);
-            label3.TabIndex = 14;
-            label3.Text = "ELIMINACIÓN DE SERVICIOS";
+            label3.TabIndex = 19;
+            label3.Text = "ELIMINACIÓN DE USUARIOS";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(255, 128, 128);
-            label2.Location = new Point(451, 196);
+            label2.Location = new Point(236, 155);
             label2.Name = "label2";
             label2.Size = new Size(202, 25);
-            label2.TabIndex = 13;
-            label2.Text = "ELIMINAR SERVICIOS";
+            label2.TabIndex = 18;
+            label2.Text = "ELIMINAR USUARIOS";
             // 
-            // btnEliminarServicio
+            // label7
             // 
-            btnEliminarServicio.BackColor = Color.IndianRed;
-            btnEliminarServicio.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEliminarServicio.Location = new Point(463, 464);
-            btnEliminarServicio.Name = "btnEliminarServicio";
-            btnEliminarServicio.Size = new Size(321, 36);
-            btnEliminarServicio.TabIndex = 15;
-            btnEliminarServicio.Text = "ELIMINAR";
-            btnEliminarServicio.UseVisualStyleBackColor = false;
+            label7.AutoSize = true;
+            label7.Location = new Point(256, 303);
+            label7.Name = "label7";
+            label7.Size = new Size(18, 15);
+            label7.TabIndex = 17;
+            label7.Text = "ID";
             // 
-            // EliminarServicios
+            // txtBoxIDEliminarUsuario
+            // 
+            txtBoxIDEliminarUsuario.Location = new Point(236, 333);
+            txtBoxIDEliminarUsuario.Name = "txtBoxIDEliminarUsuario";
+            txtBoxIDEliminarUsuario.Size = new Size(359, 23);
+            txtBoxIDEliminarUsuario.TabIndex = 16;
+            // 
+            // EliminarUsuario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1056, 691);
-            Controls.Add(btnEliminarServicio);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label7);
-            Controls.Add(txtBoxIDEliminar);
-            Controls.Add(panelEliminarServicios);
+            Controls.Add(panel3);
+            Controls.Add(panelArribaEliminarUsuarios);
             Controls.Add(panelMenu);
-            Name = "EliminarServicios";
-            Text = "Form5";
+            Name = "EliminarUsuario";
+            Text = "EliminarUsuario";
             panelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panelEliminarServicios.ResumeLayout(false);
-            panelEliminarServicios.PerformLayout();
+            panelArribaEliminarUsuarios.ResumeLayout(false);
+            panelArribaEliminarUsuarios.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Panel panelMenu;
-        private Button logOutButton;
+        private Panel panel2;
         private Button btnClientes;
+        private Panel panel1;
+        private Button logOutButton;
         private Button btnEmpleados;
         private Button btnServicios;
         private PictureBox pictureBox1;
         private Button btnInicio;
-        private Panel panelEliminarServicios;
+        private Panel panelArribaEliminarUsuarios;
         private PictureBox pictureBox2;
         private Label label1;
-        private Label label7;
-        private TextBox txtBoxIDEliminar;
+        private Panel panel3;
+        private Button btnEliminarUsuario;
         private Label label3;
         private Label label2;
-        private Button btnEliminarServicio;
+        private Label label7;
+        private TextBox txtBoxIDEliminarUsuario;
     }
 }
